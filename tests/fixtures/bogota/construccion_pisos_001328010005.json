@@ -1,0 +1,20 @@
+{
+ "displayFieldName": "",
+ "fieldAliases": {
+  "PISOS": "PISOS"
+ },
+ "fields": [
+  {
+   "name": "PISOS",
+   "type": "esriFieldTypeDouble",
+   "alias": "PISOS"
+  }
+ ],
+ "features": [
+  {
+   "attributes": {
+    "PISOS": 3.0
+   }
+  }
+ ]
+}

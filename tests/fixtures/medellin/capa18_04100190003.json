@@ -1,0 +1,56 @@
+{
+ "displayFieldName": "identificador",
+ "fieldAliases": {
+  "identificador": "identificador",
+  "uso": "uso",
+  "area_construida": "area_construida"
+ },
+ "fields": [
+  {
+   "name": "identificador",
+   "type": "esriFieldTypeString",
+   "alias": "identificador",
+   "length": 3
+  },
+  {
+   "name": "uso",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "uso"
+  },
+  {
+   "name": "area_construida",
+   "type": "esriFieldTypeDouble",
+   "alias": "area_construida"
+  }
+ ],
+ "features": [
+  {
+   "attributes": {
+    "identificador": "P02",
+    "uso": 2,
+    "area_construida": 179.0
+   }
+  },
+  {
+   "attributes": {
+    "identificador": "P01",
+    "uso": 2,
+    "area_construida": 191.6
+   }
+  },
+  {
+   "attributes": {
+    "identificador": "P04",
+    "uso": 2,
+    "area_construida": 111.4
+   }
+  },
+  {
+   "attributes": {
+    "identificador": "P03",
+    "uso": 2,
+    "area_construida": 179.5
+   }
+  }
+ ]
+}

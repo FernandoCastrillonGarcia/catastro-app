@@ -1,0 +1,21 @@
+{
+ "displayFieldName": "cbml",
+ "fieldAliases": {
+  "destinacion": "destinacion"
+ },
+ "fields": [
+  {
+   "name": "destinacion",
+   "type": "esriFieldTypeString",
+   "alias": "destinacion",
+   "length": 30
+  }
+ ],
+ "features": [
+  {
+   "attributes": {
+    "destinacion": "Residencial"
+   }
+  }
+ ]
+}

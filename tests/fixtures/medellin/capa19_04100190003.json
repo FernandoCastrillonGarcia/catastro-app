@@ -1,0 +1,75 @@
+{
+ "displayFieldName": "TIPO_CONSTRUCCION",
+ "fieldAliases": {
+  "numero_pisos": "numero_pisos",
+  "area_construida": "area_construida"
+ },
+ "fields": [
+  {
+   "name": "numero_pisos",
+   "type": "esriFieldTypeDouble",
+   "alias": "numero_pisos"
+  },
+  {
+   "name": "area_construida",
+   "type": "esriFieldTypeDouble",
+   "alias": "area_construida"
+  }
+ ],
+ "features": [
+  {
+   "attributes": {
+    "numero_pisos": 1.0,
+    "area_construida": 2.1
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 1.0,
+    "area_construida": 3.28
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 3.0,
+    "area_construida": 79.98
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 3.0,
+    "area_construida": 107.91
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 4.0,
+    "area_construida": 196.84
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 1.0,
+    "area_construida": 12.2
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 4.0,
+    "area_construida": 248.64
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 2.0,
+    "area_construida": 9.9
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 1.0,
+    "area_construida": 0.5
+   }
+  }
+ ]
+}

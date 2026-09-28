@@ -1,0 +1,6 @@
+[{"divipola":"05001","departamen":"ANTIOQUIA","municipio":"MEDELLIN","gestor_con":"GESTOR","gestor_cat":"CATASTRO DE MEDELLIN","estado_act":"EN OPERACION"}
+,{"divipola":"08001","departamen":"ATLANTICO","municipio":"BARRANQUILLA","gestor_con":"GESTOR","gestor_cat":"DISTRITO DE BARRANQUILLA","estado_act":"EN OPERACION"}
+,{"divipola":"11001","departamen":"BOGOTA D.C.","municipio":"BOGOTA","gestor_con":"GESTOR","gestor_cat":"UNIDAD ADMINISTRATIVA ESPECIAL DE CATASTRO DISTRITAL BOGOTA UAECD","estado_act":"EN OPERACION"}
+,{"divipola":"17001","departamen":"CALDAS","municipio":"MANIZALES","gestor_con":"CONTRATO","gestor_cat":"MUNICIPIOS ASOCIADOS DEL ALTIPLANO DEL ORIENTE ANTIOQUEÑO MASORA","estado_act":"EN OPERACION","inicio":"2021-09-13T00:00:00.000"}
+,{"divipola":"68001","departamen":"SANTANDER","municipio":"BUCARAMANGA","gestor_con":"GESTOR","gestor_cat":"AREA METROPOLITANA DE BUCARAMANGA AMB","estado_act":"EN OPERACION","acto_admin":"RESOLUCION 1267 DEL 10/10/2019","inicio":"2020-01-08T00:00:00.000"}
+,{"divipola":"76001","departamen":"VALLE DEL CAUCA","municipio":"CALI","gestor_con":"GESTOR","gestor_cat":"CATASTRO MUNICIPAL DE CALI","estado_act":"EN OPERACION"}]

@@ -1,0 +1,27 @@
+{
+ "displayFieldName": "identificador",
+ "fieldAliases": {
+  "identificador": "identificador",
+  "uso": "uso",
+  "area_construida": "area_construida"
+ },
+ "fields": [
+  {
+   "name": "identificador",
+   "type": "esriFieldTypeString",
+   "alias": "identificador",
+   "length": 3
+  },
+  {
+   "name": "uso",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "uso"
+  },
+  {
+   "name": "area_construida",
+   "type": "esriFieldTypeDouble",
+   "alias": "area_construida"
+  }
+ ],
+ "features": []
+}

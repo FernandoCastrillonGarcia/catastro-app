@@ -1,0 +1,393 @@
+{
+ "displayFieldName": "TIPO_CONSTRUCCION",
+ "fieldAliases": {
+  "numero_pisos": "numero_pisos",
+  "area_construida": "area_construida"
+ },
+ "fields": [
+  {
+   "name": "numero_pisos",
+   "type": "esriFieldTypeDouble",
+   "alias": "numero_pisos"
+  },
+  {
+   "name": "area_construida",
+   "type": "esriFieldTypeDouble",
+   "alias": "area_construida"
+  }
+ ],
+ "features": [
+  {
+   "attributes": {
+    "numero_pisos": 1.0,
+    "area_construida": 16.8
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 0.0,
+    "area_construida": 9018.69
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 3.0,
+    "area_construida": 150.4
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 4.0,
+    "area_construida": 718.85
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 3.0,
+    "area_construida": 227.28
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 12.0,
+    "area_construida": 4359.29
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 8.0,
+    "area_construida": 1053.81
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 1.0,
+    "area_construida": 9.98
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 4.0,
+    "area_construida": 1903.2
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 9.0,
+    "area_construida": 70.5
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 2.0,
+    "area_construida": 630.63
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 2.0,
+    "area_construida": 275.46
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 8.0,
+    "area_construida": 89.1
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 1.0,
+    "area_construida": 19.87
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 1.0,
+    "area_construida": 7.82
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 1.0,
+    "area_construida": 7.82
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 2.0,
+    "area_construida": 374.31
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 11.0,
+    "area_construida": 263.88
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 9.0,
+    "area_construida": 368.0
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 1.0,
+    "area_construida": 40.27
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 3.0,
+    "area_construida": 124.56
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 13.0,
+    "area_construida": 22115.94
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 12.0,
+    "area_construida": 1525.68
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 10.0,
+    "area_construida": 105.38
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 4.0,
+    "area_construida": 143.4
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 7.0,
+    "area_construida": 55.84
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 8.0,
+    "area_construida": 193.59
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 10.0,
+    "area_construida": 241.89
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 3.0,
+    "area_construida": 152.6
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 1.0,
+    "area_construida": 81.86
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 6.0,
+    "area_construida": 106.4
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 6.0,
+    "area_construida": 343.21
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 5.0,
+    "area_construida": 91.98
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 5.0,
+    "area_construida": 265.86
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 4.0,
+    "area_construida": 73.85
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 4.0,
+    "area_construida": 213.25
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 3.0,
+    "area_construida": 59.04
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 3.0,
+    "area_construida": 184.32
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 1.0,
+    "area_construida": 35.08
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 1.0,
+    "area_construida": 93.78
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 2.0,
+    "area_construida": 44.31
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 2.0,
+    "area_construida": 143.67
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 9.0,
+    "area_construida": 97.0
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 9.0,
+    "area_construida": 218.0
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 0.0,
+    "area_construida": 2.85
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 5.0,
+    "area_construida": 178.68
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 10.0,
+    "area_construida": 82.06
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 9.0,
+    "area_construida": 263.0
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 3.0,
+    "area_construida": 92.08
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 6.0,
+    "area_construida": 217.98
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 10.0,
+    "area_construida": 267.85
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 4.0,
+    "area_construida": 36.68
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 7.0,
+    "area_construida": 134.4
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 0.0,
+    "area_construida": 2.88
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 1.0,
+    "area_construida": 9.92
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 7.0,
+    "area_construida": 205.36
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 4.0,
+    "area_construida": 4285.1
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 11.0,
+    "area_construida": 86.64
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 8.0,
+    "area_construida": 74.7
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 11.0,
+    "area_construida": 302.28
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 5.0,
+    "area_construida": 42.6
+   }
+  },
+  {
+   "attributes": {
+    "numero_pisos": 2.0,
+    "area_construida": 20.98
+   }
+  }
+ ]
+}

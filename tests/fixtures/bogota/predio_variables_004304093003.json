@@ -1,0 +1,148 @@
+{
+ "displayFieldName": "PRECBARRIO",
+ "fieldAliases": {
+  "PRECHIP": "Código CHIP",
+  "PREDIRECC": "Dirección Oficial",
+  "PREVETUSTZ": "Vetustez",
+  "PREUCALIF": "Unidad Calificada",
+  "PRECUSO": "Código Uso",
+  "PREAUSO": "Área Uso",
+  "PRECDESTIN": "Destino Económico",
+  "PREEARMAZ": "Armazon Estructura",
+  "PREEMUROS": "Muros Estructura"
+ },
+ "fields": [
+  {
+   "name": "PRECHIP",
+   "type": "esriFieldTypeString",
+   "alias": "Código CHIP",
+   "length": 11
+  },
+  {
+   "name": "PREDIRECC",
+   "type": "esriFieldTypeString",
+   "alias": "Dirección Oficial",
+   "length": 60
+  },
+  {
+   "name": "PREVETUSTZ",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "Vetustez"
+  },
+  {
+   "name": "PREUCALIF",
+   "type": "esriFieldTypeString",
+   "alias": "Unidad Calificada",
+   "length": 1
+  },
+  {
+   "name": "PRECUSO",
+   "type": "esriFieldTypeString",
+   "alias": "Código Uso",
+   "length": 3
+  },
+  {
+   "name": "PREAUSO",
+   "type": "esriFieldTypeDouble",
+   "alias": "Área Uso"
+  },
+  {
+   "name": "PRECDESTIN",
+   "type": "esriFieldTypeString",
+   "alias": "Destino Económico",
+   "length": 2
+  },
+  {
+   "name": "PREEARMAZ",
+   "type": "esriFieldTypeString",
+   "alias": "Armazon Estructura",
+   "length": 3
+  },
+  {
+   "name": "PREEMUROS",
+   "type": "esriFieldTypeString",
+   "alias": "Muros Estructura",
+   "length": 3
+  }
+ ],
+ "features": [
+  {
+   "attributes": {
+    "PRECHIP": "AAA0038AWXS",
+    "PREDIRECC": "AK 68 1A 56",
+    "PREVETUSTZ": 1971,
+    "PREUCALIF": "A",
+    "PRECUSO": "001",
+    "PREAUSO": 133.83,
+    "PRECDESTIN": "21",
+    "PREEARMAZ": "113",
+    "PREEMUROS": "125"
+   }
+  },
+  {
+   "attributes": {
+    "PRECHIP": "AAA0038AWXS",
+    "PREDIRECC": "AK 68 1A 56",
+    "PREVETUSTZ": 1971,
+    "PREUCALIF": "A",
+    "PRECUSO": "004",
+    "PREAUSO": 143.48,
+    "PRECDESTIN": "21",
+    "PREEARMAZ": "113",
+    "PREEMUROS": "125"
+   }
+  },
+  {
+   "attributes": {
+    "PRECHIP": "AAA0038AWXS",
+    "PREDIRECC": "AK 68 1A 56",
+    "PREVETUSTZ": 1971,
+    "PREUCALIF": "B",
+    "PRECUSO": "001",
+    "PREAUSO": 57.02,
+    "PRECDESTIN": "21",
+    "PREEARMAZ": "113",
+    "PREEMUROS": null
+   }
+  },
+  {
+   "attributes": {
+    "PRECHIP": "AAA0038AWXS",
+    "PREDIRECC": "AK 68 1A 56",
+    "PREVETUSTZ": 1971,
+    "PREUCALIF": "B",
+    "PRECUSO": "033",
+    "PREAUSO": 629.26,
+    "PRECDESTIN": "21",
+    "PREEARMAZ": "114",
+    "PREEMUROS": "125"
+   }
+  },
+  {
+   "attributes": {
+    "PRECHIP": "AAA0038AWXS",
+    "PREDIRECC": "AK 68 1A 56",
+    "PREVETUSTZ": 1971,
+    "PREUCALIF": "C",
+    "PRECUSO": "020",
+    "PREAUSO": 37.32,
+    "PRECDESTIN": "21",
+    "PREEARMAZ": "113",
+    "PREEMUROS": "125"
+   }
+  },
+  {
+   "attributes": {
+    "PRECHIP": "AAA0038AWXS",
+    "PREDIRECC": "AK 68 1A 56",
+    "PREVETUSTZ": 2021,
+    "PREUCALIF": "D",
+    "PRECUSO": "022",
+    "PREAUSO": 11.52,
+    "PRECDESTIN": "21",
+    "PREEARMAZ": "111",
+    "PREEMUROS": "121"
+   }
+  }
+ ]
+}

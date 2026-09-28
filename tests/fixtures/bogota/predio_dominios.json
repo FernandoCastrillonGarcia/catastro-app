@@ -1,0 +1,487 @@
+{
+ "fields": [
+  {
+   "name": "PRECDESTIN",
+   "type": "esriFieldTypeString",
+   "alias": "Destino Económico",
+   "length": 2,
+   "domain": {
+    "type": "codedValue",
+    "name": "D_PreDestino",
+    "description": "Destino Económico",
+    "codedValues": [
+     {
+      "name": "Residencial",
+      "code": "01"
+     },
+     {
+      "name": "Industrial",
+      "code": "03"
+     },
+     {
+      "name": "Dotacional público",
+      "code": "04"
+     },
+     {
+      "name": "Recreacional público",
+      "code": "05"
+     },
+     {
+      "name": "Comercio en corredor comercial",
+      "code": "21"
+     },
+     {
+      "name": "Comercio en centros comerciales",
+      "code": "22"
+     },
+     {
+      "name": "Comercio puntual",
+      "code": "23"
+     },
+     {
+      "name": "Parqueaderos",
+      "code": "24"
+     },
+     {
+      "name": "Urbanizado no edificado",
+      "code": "61"
+     },
+     {
+      "name": "No urbanizables y suelo protegido",
+      "code": "63"
+     },
+     {
+      "name": "Vías",
+      "code": "65"
+     },
+     {
+      "name": "Espacio público",
+      "code": "66"
+     },
+     {
+      "name": "Predios con mejoras ajenas",
+      "code": "67"
+     },
+     {
+      "name": "Agropecuarios",
+      "code": "81"
+     },
+     {
+      "name": "Otros",
+      "code": "82"
+     },
+     {
+      "name": "Agrícola",
+      "code": "83"
+     },
+     {
+      "name": "Pecuario",
+      "code": "84"
+     },
+     {
+      "name": "Forestal",
+      "code": "85"
+     },
+     {
+      "name": "Agroindustrial",
+      "code": "86"
+     },
+     {
+      "name": "Agroforestal",
+      "code": "87"
+     },
+     {
+      "name": "Tierras improductivas",
+      "code": "88"
+     },
+     {
+      "name": "Predio rural con parcela no edificada",
+      "code": "89"
+     },
+     {
+      "name": "Dotacional privado",
+      "code": "06"
+     },
+     {
+      "name": "Recreacional privado",
+      "code": "08"
+     },
+     {
+      "name": "Urbanizable no urbanizado",
+      "code": "62"
+     },
+     {
+      "name": "Minero",
+      "code": "07"
+     },
+     {
+      "name": "Urbanizado no edificado propiedad del Estado",
+      "code": "64"
+     },
+     {
+      "name": "Servidumbre Predial",
+      "code": "68"
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue",
+    "splitPolicy": "esriSPTDefaultValue"
+   }
+  },
+  {
+   "name": "PRECUSO",
+   "type": "esriFieldTypeString",
+   "alias": "Código Uso",
+   "length": 3,
+   "domain": {
+    "type": "codedValue",
+    "name": "D_UsoTUso",
+    "description": "Dominio de Tipo de Uso",
+    "codedValues": [
+     {
+      "name": "Habitacional menor o igual a 3 pisos en NPH",
+      "code": "001"
+     },
+     {
+      "name": "Habitacional mayor o igual a 4 pisos en NPH",
+      "code": "002"
+     },
+     {
+      "name": "Comercio Puntual en NPH",
+      "code": "003"
+     },
+     {
+      "name": "Corredor Comercial en NPH",
+      "code": "004"
+     },
+     {
+      "name": "Estaciones de servicio",
+      "code": "005"
+     },
+     {
+      "name": "Centro Comercial  Mediano  NPH",
+      "code": "006"
+     },
+     {
+      "name": "Centro Comercial  Grande NPH",
+      "code": "007"
+     },
+     {
+      "name": "Bodega comercial NPH",
+      "code": "008"
+     },
+     {
+      "name": "Industria artesanal",
+      "code": "009"
+     },
+     {
+      "name": "Industria Mediana",
+      "code": "010"
+     },
+     {
+      "name": "Industria Grande",
+      "code": "011"
+     },
+     {
+      "name": "Institucional Puntual",
+      "code": "012"
+     },
+     {
+      "name": "Colegios y Universidades de 1 a 3 pisos",
+      "code": "013"
+     },
+     {
+      "name": "Iglesias",
+      "code": "014"
+     },
+     {
+      "name": "Oficinas y Consultorios oficiales en NPH",
+      "code": "015"
+     },
+     {
+      "name": "Instalaciones Militares",
+      "code": "018"
+     },
+     {
+      "name": "Industria artesanal en PH",
+      "code": "019"
+     },
+     {
+      "name": "Oficinas y Consultorios en NPH",
+      "code": "020"
+     },
+     {
+      "name": "Hoteles en NPH",
+      "code": "021"
+     },
+     {
+      "name": "Teatros y Cinemas en NPH",
+      "code": "023"
+     },
+     {
+      "name": "Edificio de Parqueo en NPH",
+      "code": "024"
+     },
+     {
+      "name": "Bodega de Almacenamiento en NPH",
+      "code": "025"
+     },
+     {
+      "name": "Moteles Amoblado y Residencias en NPH",
+      "code": "026"
+     },
+     {
+      "name": "Moteles Amoblado y Residencias en PH",
+      "code": "027"
+     },
+     {
+      "name": "Industria Mediana en PH",
+      "code": "028"
+     },
+     {
+      "name": "Piscinas en NPH",
+      "code": "031"
+     },
+     {
+      "name": "Coliseos",
+      "code": "032"
+     },
+     {
+      "name": "Industria Grande en PH",
+      "code": "034"
+     },
+     {
+      "name": "Colegios y Universidades de 1 a 3 pisos en PH",
+      "code": "035"
+     },
+     {
+      "name": "Habitacional menor o igual a 3 pisos en PH",
+      "code": "037"
+     },
+     {
+      "name": "Habitacional mayor o igual a 4 pisos en PH",
+      "code": "038"
+     },
+     {
+      "name": "Comercio Puntual en PH",
+      "code": "039"
+     },
+     {
+      "name": "Corredor Comercial en PH",
+      "code": "040"
+     },
+     {
+      "name": "Centro Comercial  Mediano en PH",
+      "code": "041"
+     },
+     {
+      "name": "Centro Comercial  Grande en PH",
+      "code": "042"
+     },
+     {
+      "name": "Institucional Puntual en PH",
+      "code": "044"
+     },
+     {
+      "name": "Oficinas y Consultorios en PH",
+      "code": "045"
+     },
+     {
+      "name": "Hoteles en PH",
+      "code": "046"
+     },
+     {
+      "name": "Teatros y Cinemas en PH",
+      "code": "047"
+     },
+     {
+      "name": "Parqueo libre en PH",
+      "code": "048"
+     },
+     {
+      "name": "Parqueadero Cubierto en PH",
+      "code": "049"
+     },
+     {
+      "name": "Edificio de Parqueo en PH",
+      "code": "050"
+     },
+     {
+      "name": "Deposito Lockers en PH",
+      "code": "051"
+     },
+     {
+      "name": "Piscinas en PH",
+      "code": "052"
+     },
+     {
+      "name": "Iglesias en PH",
+      "code": "053"
+     },
+     {
+      "name": "Cementerios",
+      "code": "055"
+     },
+     {
+      "name": "Restaurantes en NPH",
+      "code": "056"
+     },
+     {
+      "name": "Restaurantes en PH",
+      "code": "060"
+     },
+     {
+      "name": "Aulas de Clases",
+      "code": "064"
+     },
+     {
+      "name": "Clubes Pequeños",
+      "code": "065"
+     },
+     {
+      "name": "Plazas de Mercado",
+      "code": "066"
+     },
+     {
+      "name": "Museos",
+      "code": "067"
+     },
+     {
+      "name": "Enrramadas Cobertizos Cayenes",
+      "code": "070"
+     },
+     {
+      "name": "Galpones Gallineros",
+      "code": "071"
+     },
+     {
+      "name": "Establos Pesebreras Caballerizas",
+      "code": "072"
+     },
+     {
+      "name": "Cocheras Marraneras Porquerizas",
+      "code": "073"
+     },
+     {
+      "name": "Beneficiadores",
+      "code": "074"
+     },
+     {
+      "name": "Secadores",
+      "code": "075"
+     },
+     {
+      "name": "Kioscos",
+      "code": "076"
+     },
+     {
+      "name": "Silos",
+      "code": "077"
+     },
+     {
+      "name": "Oficinas en Bodegas y/o Industrias en NPH",
+      "code": "080"
+     },
+     {
+      "name": "Oficinas en Bodegas y/o Industrias en PH",
+      "code": "081"
+     },
+     {
+      "name": "Oficinas operativas (estaciones de servicio)",
+      "code": "082"
+     },
+     {
+      "name": "Predios sin construir en PH",
+      "code": "090"
+     },
+     {
+      "name": "Bodega comercial en PH",
+      "code": "091"
+     },
+     {
+      "name": "Oficinas y Consultorios oficiales en PH",
+      "code": "092"
+     },
+     {
+      "name": "Bodega de Almacenamiento en PH",
+      "code": "093"
+     },
+     {
+      "name": "Centro Comercial Pequeño en NPH",
+      "code": "094"
+     },
+     {
+      "name": "Centro Comercial Pequeño en PH",
+      "code": "095"
+     },
+     {
+      "name": "Parqueadero Cubierto en NPH",
+      "code": "096"
+     },
+     {
+      "name": "Colegios y Universidades de 4 pisos o mas",
+      "code": "016"
+     },
+     {
+      "name": "Clinicas Hospitales Centro Medicos",
+      "code": "017"
+     },
+     {
+      "name": "Depositos de Almacenamiento en NPH",
+      "code": "022"
+     },
+     {
+      "name": "Parques de Diversion en NPH",
+      "code": "029"
+     },
+     {
+      "name": "Clubes de Mayor Extension",
+      "code": "030"
+     },
+     {
+      "name": "Bodega Economica",
+      "code": "033"
+     },
+     {
+      "name": "Parques de Diversion en PH",
+      "code": "036"
+     },
+     {
+      "name": "Clinicas Hospitales Centro Medicos en PH",
+      "code": "043"
+     },
+     {
+      "name": "Bodega Economica en PH",
+      "code": "097"
+     },
+     {
+      "name": "Deposito de Almacenamiento en PH",
+      "code": "098"
+     },
+     {
+      "name": "Pista Aeropuerto",
+      "code": "062"
+     },
+     {
+      "name": "Culto Religioso en NPH",
+      "code": "058"
+     },
+     {
+      "name": "Sin Uso",
+      "code": "000"
+     },
+     {
+      "name": "Área de Mezanine en PH",
+      "code": "057"
+     },
+     {
+      "name": "Culto Religioso en PH",
+      "code": "059"
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue",
+    "splitPolicy": "esriSPTDefaultValue"
+   }
+  }
+ ],
+ "_nota": "recorte de catastro/lote/MapServer/3?f=json (2026-09-27): solo los campos con dominio que usa la app"
+}

@@ -1,0 +1,427 @@
+{
+ "fields": [
+  {
+   "name": "uso",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "uso",
+   "domain": {
+    "type": "codedValue",
+    "name": "WS3_COL_Uso",
+    "description": "DESCRIPCION",
+    "codedValues": [
+     {
+      "name": "(Residencial) Apartamentos 4 y más pisos en PH",
+      "code": 0
+     },
+     {
+      "name": "(Residencial) Apartamentos en Edificio de 4 y 5 Pisos (Cartagena)",
+      "code": 1
+     },
+     {
+      "name": "(Residencial) Apartamentos mas de 4 Pisos",
+      "code": 2
+     },
+     {
+      "name": "(Residencial) Barracas",
+      "code": 3
+     },
+     {
+      "name": "(Residencial) Casa Elbas",
+      "code": 4
+     },
+     {
+      "name": "(Residencial) Depósitos o lockers",
+      "code": 5
+     },
+     {
+      "name": "(Residencial) Garajes Cubiertos",
+      "code": 6
+     },
+     {
+      "name": "(Residencial) Garajes en PH",
+      "code": 7
+     },
+     {
+      "name": "(Residencial) Salón comunal",
+      "code": 8
+     },
+     {
+      "name": "(Residencial) Secadero de ropa",
+      "code": 9
+     },
+     {
+      "name": "(Residencial) Vivienda Colonial",
+      "code": 10
+     },
+     {
+      "name": "(Residencial) Vivienda hasta 3 pisos",
+      "code": 11
+     },
+     {
+      "name": "(Residencial) Vivienda hasta 3 pisos en PH",
+      "code": 12
+     },
+     {
+      "name": "(Residencial) Vivienda Recreacional",
+      "code": 13
+     },
+     {
+      "name": "(Residencial) Vivienda Recreacional en PH",
+      "code": 14
+     },
+     {
+      "name": "(Comercial) Bodegas Comerciales - Grandes Almacenes",
+      "code": 15
+     },
+     {
+      "name": "(Comercial) Bodegas Comerciales en PH",
+      "code": 16
+     },
+     {
+      "name": "(Comercial) Centros Comerciales",
+      "code": 17
+     },
+     {
+      "name": "(Comercial) Centros Comerciales en PH",
+      "code": 18
+     },
+     {
+      "name": "(Comercial) Clubes - Casinos",
+      "code": 19
+     },
+     {
+      "name": "(Comercial) Comercio",
+      "code": 20
+     },
+     {
+      "name": "(Comercial) Comercio Colonial",
+      "code": 21
+     },
+     {
+      "name": "(Comercial) Comercio en PH",
+      "code": 22
+     },
+     {
+      "name": "(Comercial) Hotel Colonial",
+      "code": 23
+     },
+     {
+      "name": "(Comercial) Hoteles",
+      "code": 24
+     },
+     {
+      "name": "(Comercial) Hoteles en PH",
+      "code": 25
+     },
+     {
+      "name": "(Comercial) Oficinas - Consultorios",
+      "code": 26
+     },
+     {
+      "name": "(Comercial) Oficinas - Consultorios Coloniales",
+      "code": 27
+     },
+     {
+      "name": "(Comercial) Oficinas Consultorios en PH",
+      "code": 28
+     },
+     {
+      "name": "(Comercial) Parque de diversiones",
+      "code": 29
+     },
+     {
+      "name": "(Comercial) Parqueaderos",
+      "code": 30
+     },
+     {
+      "name": "(Comercial) Parqueaderos en PH",
+      "code": 31
+     },
+     {
+      "name": "(Comercial) Pensiones y Residencias",
+      "code": 32
+     },
+     {
+      "name": "(Comercial) Plaza de mercado",
+      "code": 33
+     },
+     {
+      "name": "(Comercial) Restaurante Colonial",
+      "code": 34
+     },
+     {
+      "name": "(Comercial) Restaurantes",
+      "code": 35
+     },
+     {
+      "name": "(Comercial) Restaurantes en PH",
+      "code": 36
+     },
+     {
+      "name": "(Comercial) Teatro - Cinemas",
+      "code": 37
+     },
+     {
+      "name": "(Comercial) Teatro - Cinemas en PH",
+      "code": 38
+     },
+     {
+      "name": "(Industrial) Bodega Casa Bomba",
+      "code": 39
+     },
+     {
+      "name": "(Industrial) Bodegas Casa Bomba en PH",
+      "code": 40
+     },
+     {
+      "name": "(Industrial) Industrias",
+      "code": 41
+     },
+     {
+      "name": "(Industrial) Industrias en PH",
+      "code": 42
+     },
+     {
+      "name": "(Industrial) Talleres",
+      "code": 43
+     },
+     {
+      "name": "(Institucional) Aula de clases",
+      "code": 44
+     },
+     {
+      "name": "(Institucional) Biblioteca",
+      "code": 45
+     },
+     {
+      "name": "(Institucional) Cárceles",
+      "code": 46
+     },
+     {
+      "name": "(Institucional) Casas de culto",
+      "code": 47
+     },
+     {
+      "name": "(Institucional) Clinicas, hospitales, centros médicos",
+      "code": 48
+     },
+     {
+      "name": "(Institucional) Colegios y universidades",
+      "code": 49
+     },
+     {
+      "name": "(Institucional) Coliseos",
+      "code": 50
+     },
+     {
+      "name": "(Institucional) Entidad educativa colonial colegio colonial",
+      "code": 51
+     },
+     {
+      "name": "(Institucional) Estadios",
+      "code": 52
+     },
+     {
+      "name": "(Anexo) Fuertes y Castillos",
+      "code": 53
+     },
+     {
+      "name": "(Institucional) Iglesia",
+      "code": 54
+     },
+     {
+      "name": "(Institucional) Iglesia en PH",
+      "code": 55
+     },
+     {
+      "name": "(Institucional) Instalaciones militares",
+      "code": 56
+     },
+     {
+      "name": "(Institucional) Jardín infantil en casa",
+      "code": 57
+     },
+     {
+      "name": "(Institucional) Parque Cementerio",
+      "code": 58
+     },
+     {
+      "name": "(Institucional) Planetario",
+      "code": 59
+     },
+     {
+      "name": "(Institucional) Plaza de toros",
+      "code": 60
+     },
+     {
+      "name": "(Institucional) Puestos de salud",
+      "code": 61
+     },
+     {
+      "name": "(Institucional) Museos",
+      "code": 62
+     },
+     {
+      "name": "(Institucional) Seminarios, conventos",
+      "code": 63
+     },
+     {
+      "name": "(Institucional) Teatro",
+      "code": 64
+     },
+     {
+      "name": "(Institucional) Unidad deportiva",
+      "code": 65
+     },
+     {
+      "name": "(Institucional) Velódromo, patinódromo",
+      "code": 66
+     },
+     {
+      "name": "(Anexo) Albercas - Banaderas",
+      "code": 67
+     },
+     {
+      "name": "(Anexo) Beneficiaderos",
+      "code": 68
+     },
+     {
+      "name": "(Anexo) Camaroneras",
+      "code": 69
+     },
+     {
+      "name": "(Anexo) Canchas",
+      "code": 70
+     },
+     {
+      "name": "(Anexo) Canchas de Tenis",
+      "code": 71
+     },
+     {
+      "name": "(Anexo) Carretera",
+      "code": 72
+     },
+     {
+      "name": "(Anexo) Cerramiento",
+      "code": 73
+     },
+     {
+      "name": "(Anexo) Cimientos, Estructura, Muros y Placa Base",
+      "code": 74
+     },
+     {
+      "name": "(Anexo) Cocheras - Marraneras - Porquerizas",
+      "code": 75
+     },
+     {
+      "name": "(Anexo) Construccion en membrana arquitectónica",
+      "code": 76
+     },
+     {
+      "name": "(Anexo) Contenedor",
+      "code": 77
+     },
+     {
+      "name": "(Anexo) Corrales",
+      "code": 78
+     },
+     {
+      "name": "(Anexo) Establos - Pesebreras - Caballerizas",
+      "code": 79
+     },
+     {
+      "name": "(Anexo) Estacion de Bombeo",
+      "code": 80
+     },
+     {
+      "name": "(Anexo) Estación de sistema de transporte",
+      "code": 81
+     },
+     {
+      "name": "(Anexo) Galpones - Gallineros",
+      "code": 82
+     },
+     {
+      "name": "(Anexo) Hangar",
+      "code": 83
+     },
+     {
+      "name": "(Anexo) Kioscos",
+      "code": 84
+     },
+     {
+      "name": "(Anexo) Lagunas de Oxidación",
+      "code": 85
+     },
+     {
+      "name": "(Anexo) Marquesinas - Patios Cubiertos",
+      "code": 86
+     },
+     {
+      "name": "(Anexo) Muelles",
+      "code": 87
+     },
+     {
+      "name": "(Anexo) Murallas",
+      "code": 88
+     },
+     {
+      "name": "(Anexo) Pérgolas",
+      "code": 89
+     },
+     {
+      "name": "(Anexo) Piscinas",
+      "code": 90
+     },
+     {
+      "name": "(Anexo) Pista aeropuerto",
+      "code": 91
+     },
+     {
+      "name": "(Anexo) Pozos",
+      "code": 92
+     },
+     {
+      "name": "(Anexo) Ramadas - Cobertizos - Caneyes",
+      "code": 93
+     },
+     {
+      "name": "(Anexo) Secaderos",
+      "code": 94
+     },
+     {
+      "name": "(Anexo) Silos",
+      "code": 95
+     },
+     {
+      "name": "(Anexo) Tanques",
+      "code": 96
+     },
+     {
+      "name": "(Anexo) Toboganes",
+      "code": 97
+     },
+     {
+      "name": "(Anexo) Torre de control",
+      "code": 98
+     },
+     {
+      "name": "(Anexo) Torres de Enfriamiento",
+      "code": 99
+     },
+     {
+      "name": "(Anexo) Unidad predial por construir",
+      "code": 100
+     },
+     {
+      "name": "(Anexo) Vía Férrea",
+      "code": 101
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue",
+    "splitPolicy": "esriSPTDefaultValue"
+   }
+  }
+ ],
+ "_nota": "recorte de ConsultaOperadorCatastral_geo/MapServer/18?f=json (2026-09-27)"
+}
