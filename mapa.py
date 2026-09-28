@@ -10,8 +10,8 @@ TESELAS = ("https://server.arcgisonline.com/ArcGIS/rest/services/"
 
 
 def crear_mapa(lat: float, lon: float) -> folium.Map:
-    """Mapa centrado en (lat, lon) con un marcador."""
+    """Mapa centrado en (lat, lon) con un marcador rojo con ícono de casa."""
     m = folium.Map(location=[lat, lon], zoom_start=17, max_zoom=19, tiles=None)
     folium.TileLayer(tiles=TESELAS, attr="Esri", name="Calles", max_zoom=19).add_to(m)
-    folium.Marker([lat, lon]).add_to(m)
+    folium.Marker([lat, lon], icon=folium.Icon(color="red", icon="house", prefix="fa")).add_to(m)
     return m
