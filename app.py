@@ -1,7 +1,9 @@
 """Interfaz Streamlit: municipio + dirección -> ficha del inmueble (gestor catastral oficial)."""
 import requests
 import streamlit as st
+from streamlit_folium import st_folium
 
+from mapa import crear_mapa
 from municipios import MUNICIPIOS
 from resumen import resumir
 
@@ -56,6 +58,10 @@ elif direccion.strip():
     )
     st.caption(f"Dirección catastral: {ficha['direccion_oficial']} · "
                f"{municipio['nombre_codigo']}: {ficha['codigo']}")
+    if r["lat"] is not None:
+        # returned_objects=[]: mover o acercar el mapa no vuelve a correr la app (ni la consulta).
+        st_folium(crear_mapa(r["lat"], r["lon"], ficha["direccion_oficial"]), key="mapa",
+                  height=350, use_container_width=True, returned_objects=[])
     if r["anio"] and len(r["anio"]["detalle"]) > 1:
         st.write("Construcciones en el lote por año:")
         for anio, area in r["anio"]["detalle"]:

@@ -5,8 +5,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ## Estado del repositorio
 
 Implementado (git, repositorio privado en GitHub; ver "Despliegue"): `app.py` (UI), comunes `anio.py` (regla del año), `resumen.py` (uso,
-material y tipología de la ficha) y `direccion.py` (analizador de direcciones y formatos por
-ciudad), `municipios/` (registro `MUNICIPIOS` en `__init__.py` + un archivo por ciudad; las 6
+material y tipología de la ficha), `direccion.py` (analizador de direcciones y formatos por
+ciudad) y `mapa.py` (mapa folium del inmueble sobre el mapa base del IGAC), `municipios/` (registro `MUNICIPIOS` en `__init__.py` + un archivo por ciudad; las 6
 consultan), pruebas en `tests/`, evaluación real con `python evaluar.py` (`casos_prueba.csv` y
 `casos_variables.csv`). Estructura, contrato de ciudad v2 y decisiones: `ARQUITECTURA.md`
 sección 5 (la 3 queda como historia del contrato v1).
@@ -132,6 +132,11 @@ coordenadas) y muestra el año como "Sin dato" con este motivo.
   (`numero_pisos`) por los 21 dígitos del terreno.
 - **CIIU:** ninguna fuente oficial pública liga dirección y CIIU (RUES en datos.gov.co no trae
   dirección; los datos distritales son agregados). No convertir uso catastral a CIIU.
+- **Mapa base (folium):** "Mapa híbrido" del IGAC (organización ArcGIS `RVvWzU3lgJISqdke`, la
+  misma del catastro público IGAC), teselas XYZ
+  `tiles.arcgis.com/tiles/RVvWzU3lgJISqdke/arcgis/rest/services/Mapa_Hibrido/MapServer/tile/{z}/{y}/{x}`,
+  EPSG:3857, con teselas en las 6 ciudades hasta el zoom 15 (el 16 da 404). No usar el
+  OpenStreetMap por defecto de folium.
 
 ## Comandos
 
