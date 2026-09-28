@@ -60,7 +60,7 @@ elif direccion.strip():
                f"{municipio['nombre_codigo']}: {ficha['codigo']}")
     if r["lat"] is not None:
         # returned_objects=[]: mover o acercar el mapa no vuelve a correr la app (ni la consulta).
-        st_folium(crear_mapa(r["lat"], r["lon"], ficha["direccion_oficial"]), key="mapa",
+        st_folium(crear_mapa(r["lat"], r["lon"]), key="mapa",
                   height=350, use_container_width=True, returned_objects=[])
     if r["anio"] and len(r["anio"]["detalle"]) > 1:
         st.write("Construcciones en el lote por año:")
