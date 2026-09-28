@@ -9,4 +9,4 @@ def test_mapa_centrado_con_marcador_sin_texto():
     assert TESELAS in html
     assert "openstreetmap" not in html.lower()
     assert "bindPopup" not in html and "bindTooltip" not in html
-    assert "fa-house" in html
+    assert "\"icon\": \"house\"" in html
